@@ -4,6 +4,7 @@ import datetime as dt
 import json
 import plotly.express as px
 import plotly.graph_objects as go
+import requests
 
 # ---------------------------
 # --- Dashboard Konfiguration
@@ -207,3 +208,4 @@ with tab3:
         file_name=f"awattar_{agg_mode.lower()}_{start_date}_{end_date}.csv",
         mime="text/csv"
     )
+
