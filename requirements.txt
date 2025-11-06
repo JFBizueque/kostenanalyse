@@ -1,0 +1,7 @@
+streamlit
+pandas
+datetime
+json
+plotly.express
+plotly.graph_objects
+requests
